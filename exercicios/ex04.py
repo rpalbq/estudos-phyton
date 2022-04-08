@@ -1,5 +1,6 @@
-#Elabore um programa que calcule a área de uma circuferência e apresente a medida da área calculada. Estabeleça que pi tenha o valor de: 3.14159265.
-raio = int(input('Digite o valor do raio da circuferência:'))
-pi = 3.14159265
-area =  pi * raio ** 2
-print('A área da circuferência é:', area)
+""""Converta as seguintes expressões matemáticas para que possam ser calculadas usando Phyton
+a) 10 + 20 x 30  b) 4^2 / 30  c)(9^4 + 2) x 6 - 1 """
+
+print((20 * 30) + 10)
+print((4 ** 2) / 30)
+print((9 ** 4 + 2 ) * 6 - 1)
