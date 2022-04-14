@@ -27,7 +27,7 @@ desconto_fgts = ((11/100) * salario_bruto)
 
 if (salario_bruto <= 900):
     desconto_renda =  0
-    salario_liquido = (salario_bruto - (desconto_sindicato + desconto_renda_900))
+    salario_liquido = (salario_bruto - (desconto_sindicato + desconto_renda))
 
 elif (salario_bruto > 900) and (salario_bruto <= 1500):
     desconto_renda =  ((5/100) * salario_bruto)
