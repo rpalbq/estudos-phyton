@@ -10,7 +10,7 @@ Salário Bruto de ate R$ 1500,00 (inclusive) – desconto de 5%;
 Salario bruto até R$ 2500,00 (Inclusive) – desconto de 10%;
 Salário bruto acima de R$ 2500 – Desconto de 20%.
 Imprima na tela as informações, dispostas conforme o exemplo abaixo, no exemplo valor da hora é 5 e
-a quantidade de horas é 220. (0.5 pontos)
+a quantidade de horas é 220.
 Saída:
 Salário bruto ( R$ 5 * 220h ) : R$ 1100,00
 ( – ) IR (5%) : R$ 55,00
@@ -24,8 +24,6 @@ horas_trabalhadas = float(input("Quantas horas você trabalhou?"))
 salario_bruto = (valor_hora * horas_trabalhadas)
 desconto_sindicato = ((3/100) * salario_bruto)
 desconto_fgts = ((11/100) * salario_bruto)
-
-
 
 if (salario_bruto <= 900):
     desconto_renda =  0
