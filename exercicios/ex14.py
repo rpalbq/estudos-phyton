@@ -1,4 +1,4 @@
-#Retorne quantos caracteres tem na string "I dream of you almost every night"
+#String
 
 musica = "I dream of you almost every night"
 print(len(musica))

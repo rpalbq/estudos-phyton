@@ -1,4 +1,4 @@
-#Concatenação entre 4 strings e multiple uma e mostre o resultado
+#Concatenação
 
 exemplo = "Phyton" + " é" + " muito" * 5 + " legal"
 print(exemplo)
